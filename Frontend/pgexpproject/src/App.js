@@ -1,5 +1,5 @@
 import './App.css';
-import Registration from './component/Registration';
+import Registration from './component/provider/Registration';
 import Login from './component/provider/Login';
 
 
