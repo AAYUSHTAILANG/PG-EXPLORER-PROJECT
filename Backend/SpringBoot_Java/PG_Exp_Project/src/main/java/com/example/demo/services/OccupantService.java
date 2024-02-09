@@ -3,10 +3,10 @@ package com.example.demo.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.repository.RolesRepository;
+import com.example.demo.repository.OccupantRepository;
 
 @Service
-public class RolesService {
+public class OccupantService {
 	@Autowired
-	RolesRepository roles_repo;
+	OccupantRepository occupant_repo;
 }

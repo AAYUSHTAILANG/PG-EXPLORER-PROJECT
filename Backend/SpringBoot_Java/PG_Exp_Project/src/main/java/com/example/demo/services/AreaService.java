@@ -2,11 +2,11 @@ package com.example.demo.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.example.demo.repository.RolesRepository;
+import com.example.demo.repository.AreaRepository;
 
 @Service
-public class RolesService {
+public class AreaService {
 	@Autowired
-	RolesRepository roles_repo;
+	AreaRepository area_repo;
+	
 }

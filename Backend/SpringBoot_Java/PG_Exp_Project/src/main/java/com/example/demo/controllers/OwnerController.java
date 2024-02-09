@@ -3,10 +3,11 @@ package com.example.demo.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.services.RolesService;
+import com.example.demo.services.OwnerService;
 
 @RestController
-public class RolesController {
+public class OwnerController {
+
 	@Autowired
-	RolesService roles_service;
+	OwnerService owner_service;
 }
